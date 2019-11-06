@@ -36,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD9EB2C5237250D100DFCFCC /* Assin.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Assin.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDF6CF302372501B0020B9A2 /* BlastingKakao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlastingKakao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF6CF332372501B0020B9A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDF6CF352372501B0020B9A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,7 +81,6 @@
 		BDF6CF272372501B0020B9A2 = {
 			isa = PBXGroup;
 			children = (
-				BD9EB2C5237250D100DFCFCC /* Assin.playground */,
 				BDF6CF322372501B0020B9A2 /* BlastingKakao */,
 				BDF6CF4C2372501D0020B9A2 /* BlastingKakaoTests */,
 				BDF6CF572372501D0020B9A2 /* BlastingKakaoUITests */,
