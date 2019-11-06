@@ -20,4 +20,14 @@
 
 ### 2019. 11. 7 (목)
 
+
+* [캐시(난이도: 하)](https://programmers.co.kr/learn/courses/30/lessons/17680)
+
+
+* [실패율](https://www.welcomekakao.com/learn/courses/30/lessons/42889)
+
+
+* [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)
+
+
 ### 2019. 11. 7 (금)
