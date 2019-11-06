@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF6CF342372501B0020B9A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6CF332372501B0020B9A2 /* AppDelegate.swift */; };
+		BDF6CF362372501B0020B9A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6CF352372501B0020B9A2 /* SceneDelegate.swift */; };
+		BDF6CF382372501B0020B9A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6CF372372501B0020B9A2 /* ViewController.swift */; };
+		BDF6CF3B2372501B0020B9A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF6CF392372501B0020B9A2 /* Main.storyboard */; };
+		BDF6CF3E2372501B0020B9A2 /* BlastingKakao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF6CF3C2372501B0020B9A2 /* BlastingKakao.xcdatamodeld */; };
+		BDF6CF402372501D0020B9A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF6CF3F2372501D0020B9A2 /* Assets.xcassets */; };
+		BDF6CF432372501D0020B9A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF6CF412372501D0020B9A2 /* LaunchScreen.storyboard */; };
+		BDF6CF4E2372501D0020B9A2 /* BlastingKakaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6CF4D2372501D0020B9A2 /* BlastingKakaoTests.swift */; };
+		BDF6CF592372501D0020B9A2 /* BlastingKakaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6CF582372501D0020B9A2 /* BlastingKakaoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF6CF4A2372501D0020B9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF6CF282372501B0020B9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF6CF2F2372501B0020B9A2;
+			remoteInfo = BlastingKakao;
+		};
+		BDF6CF552372501D0020B9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF6CF282372501B0020B9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF6CF2F2372501B0020B9A2;
+			remoteInfo = BlastingKakao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD9EB2C5237250D100DFCFCC /* Assin.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Assin.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BDF6CF302372501B0020B9A2 /* BlastingKakao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlastingKakao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF6CF332372501B0020B9A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDF6CF352372501B0020B9A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDF6CF372372501B0020B9A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDF6CF3A2372501B0020B9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF6CF3D2372501B0020B9A2 /* BlastingKakao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlastingKakao.xcdatamodel; sourceTree = "<group>"; };
+		BDF6CF3F2372501D0020B9A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF6CF422372501D0020B9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDF6CF442372501D0020B9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF6CF492372501D0020B9A2 /* BlastingKakaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlastingKakaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF6CF4D2372501D0020B9A2 /* BlastingKakaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlastingKakaoTests.swift; sourceTree = "<group>"; };
+		BDF6CF4F2372501D0020B9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF6CF542372501D0020B9A2 /* BlastingKakaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlastingKakaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF6CF582372501D0020B9A2 /* BlastingKakaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlastingKakaoUITests.swift; sourceTree = "<group>"; };
+		BDF6CF5A2372501D0020B9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF6CF2D2372501B0020B9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6CF462372501D0020B9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6CF512372501D0020B9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF6CF272372501B0020B9A2 = {
+			isa = PBXGroup;
+			children = (
+				BD9EB2C5237250D100DFCFCC /* Assin.playground */,
+				BDF6CF322372501B0020B9A2 /* BlastingKakao */,
+				BDF6CF4C2372501D0020B9A2 /* BlastingKakaoTests */,
+				BDF6CF572372501D0020B9A2 /* BlastingKakaoUITests */,
+				BDF6CF312372501B0020B9A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF6CF312372501B0020B9A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6CF302372501B0020B9A2 /* BlastingKakao.app */,
+				BDF6CF492372501D0020B9A2 /* BlastingKakaoTests.xctest */,
+				BDF6CF542372501D0020B9A2 /* BlastingKakaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF6CF322372501B0020B9A2 /* BlastingKakao */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6CF332372501B0020B9A2 /* AppDelegate.swift */,
+				BDF6CF352372501B0020B9A2 /* SceneDelegate.swift */,
+				BDF6CF372372501B0020B9A2 /* ViewController.swift */,
+				BDF6CF392372501B0020B9A2 /* Main.storyboard */,
+				BDF6CF3F2372501D0020B9A2 /* Assets.xcassets */,
+				BDF6CF412372501D0020B9A2 /* LaunchScreen.storyboard */,
+				BDF6CF442372501D0020B9A2 /* Info.plist */,
+				BDF6CF3C2372501B0020B9A2 /* BlastingKakao.xcdatamodeld */,
+			);
+			path = BlastingKakao;
+			sourceTree = "<group>";
+		};
+		BDF6CF4C2372501D0020B9A2 /* BlastingKakaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6CF4D2372501D0020B9A2 /* BlastingKakaoTests.swift */,
+				BDF6CF4F2372501D0020B9A2 /* Info.plist */,
+			);
+			path = BlastingKakaoTests;
+			sourceTree = "<group>";
+		};
+		BDF6CF572372501D0020B9A2 /* BlastingKakaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6CF582372501D0020B9A2 /* BlastingKakaoUITests.swift */,
+				BDF6CF5A2372501D0020B9A2 /* Info.plist */,
+			);
+			path = BlastingKakaoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF6CF2F2372501B0020B9A2 /* BlastingKakao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF6CF5D2372501D0020B9A2 /* Build configuration list for PBXNativeTarget "BlastingKakao" */;
+			buildPhases = (
+				BDF6CF2C2372501B0020B9A2 /* Sources */,
+				BDF6CF2D2372501B0020B9A2 /* Frameworks */,
+				BDF6CF2E2372501B0020B9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlastingKakao;
+			productName = BlastingKakao;
+			productReference = BDF6CF302372501B0020B9A2 /* BlastingKakao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF6CF482372501D0020B9A2 /* BlastingKakaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF6CF602372501D0020B9A2 /* Build configuration list for PBXNativeTarget "BlastingKakaoTests" */;
+			buildPhases = (
+				BDF6CF452372501D0020B9A2 /* Sources */,
+				BDF6CF462372501D0020B9A2 /* Frameworks */,
+				BDF6CF472372501D0020B9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF6CF4B2372501D0020B9A2 /* PBXTargetDependency */,
+			);
+			name = BlastingKakaoTests;
+			productName = BlastingKakaoTests;
+			productReference = BDF6CF492372501D0020B9A2 /* BlastingKakaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDF6CF532372501D0020B9A2 /* BlastingKakaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF6CF632372501D0020B9A2 /* Build configuration list for PBXNativeTarget "BlastingKakaoUITests" */;
+			buildPhases = (
+				BDF6CF502372501D0020B9A2 /* Sources */,
+				BDF6CF512372501D0020B9A2 /* Frameworks */,
+				BDF6CF522372501D0020B9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF6CF562372501D0020B9A2 /* PBXTargetDependency */,
+			);
+			name = BlastingKakaoUITests;
+			productName = BlastingKakaoUITests;
+			productReference = BDF6CF542372501D0020B9A2 /* BlastingKakaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF6CF282372501B0020B9A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = assin;
+				TargetAttributes = {
+					BDF6CF2F2372501B0020B9A2 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					BDF6CF482372501D0020B9A2 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = BDF6CF2F2372501B0020B9A2;
+					};
+					BDF6CF532372501D0020B9A2 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = BDF6CF2F2372501B0020B9A2;
+					};
+				};
+			};
+			buildConfigurationList = BDF6CF2B2372501B0020B9A2 /* Build configuration list for PBXProject "BlastingKakao" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF6CF272372501B0020B9A2;
+			productRefGroup = BDF6CF312372501B0020B9A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF6CF2F2372501B0020B9A2 /* BlastingKakao */,
+				BDF6CF482372501D0020B9A2 /* BlastingKakaoTests */,
+				BDF6CF532372501D0020B9A2 /* BlastingKakaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF6CF2E2372501B0020B9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6CF432372501D0020B9A2 /* LaunchScreen.storyboard in Resources */,
+				BDF6CF402372501D0020B9A2 /* Assets.xcassets in Resources */,
+				BDF6CF3B2372501B0020B9A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6CF472372501D0020B9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6CF522372501D0020B9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF6CF2C2372501B0020B9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6CF382372501B0020B9A2 /* ViewController.swift in Sources */,
+				BDF6CF3E2372501B0020B9A2 /* BlastingKakao.xcdatamodeld in Sources */,
+				BDF6CF342372501B0020B9A2 /* AppDelegate.swift in Sources */,
+				BDF6CF362372501B0020B9A2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6CF452372501D0020B9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6CF4E2372501D0020B9A2 /* BlastingKakaoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6CF502372501D0020B9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6CF592372501D0020B9A2 /* BlastingKakaoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF6CF4B2372501D0020B9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF6CF2F2372501B0020B9A2 /* BlastingKakao */;
+			targetProxy = BDF6CF4A2372501D0020B9A2 /* PBXContainerItemProxy */;
+		};
+		BDF6CF562372501D0020B9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF6CF2F2372501B0020B9A2 /* BlastingKakao */;
+			targetProxy = BDF6CF552372501D0020B9A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDF6CF392372501B0020B9A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF6CF3A2372501B0020B9A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDF6CF412372501D0020B9A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF6CF422372501D0020B9A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF6CF5B2372501D0020B9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDF6CF5C2372501D0020B9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF6CF5E2372501D0020B9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = BlastingKakao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.algorithm.club.BlastingKakao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF6CF5F2372501D0020B9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = BlastingKakao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.algorithm.club.BlastingKakao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDF6CF612372501D0020B9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = BlastingKakaoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.algorithm.club.BlastingKakaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlastingKakao.app/BlastingKakao";
+			};
+			name = Debug;
+		};
+		BDF6CF622372501D0020B9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = BlastingKakaoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.algorithm.club.BlastingKakaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlastingKakao.app/BlastingKakao";
+			};
+			name = Release;
+		};
+		BDF6CF642372501D0020B9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = BlastingKakaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.algorithm.club.BlastingKakaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlastingKakao;
+			};
+			name = Debug;
+		};
+		BDF6CF652372501D0020B9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = BlastingKakaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.algorithm.club.BlastingKakaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlastingKakao;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF6CF2B2372501B0020B9A2 /* Build configuration list for PBXProject "BlastingKakao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF6CF5B2372501D0020B9A2 /* Debug */,
+				BDF6CF5C2372501D0020B9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF6CF5D2372501D0020B9A2 /* Build configuration list for PBXNativeTarget "BlastingKakao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF6CF5E2372501D0020B9A2 /* Debug */,
+				BDF6CF5F2372501D0020B9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF6CF602372501D0020B9A2 /* Build configuration list for PBXNativeTarget "BlastingKakaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF6CF612372501D0020B9A2 /* Debug */,
+				BDF6CF622372501D0020B9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF6CF632372501D0020B9A2 /* Build configuration list for PBXNativeTarget "BlastingKakaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF6CF642372501D0020B9A2 /* Debug */,
+				BDF6CF652372501D0020B9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDF6CF3C2372501B0020B9A2 /* BlastingKakao.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDF6CF3D2372501B0020B9A2 /* BlastingKakao.xcdatamodel */,
+			);
+			currentVersion = BDF6CF3D2372501B0020B9A2 /* BlastingKakao.xcdatamodel */;
+			path = BlastingKakao.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDF6CF282372501B0020B9A2 /* Project object */;
+}
