@@ -30,7 +30,7 @@
 * [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)
 
 
-### 2019. 11. 7 (금)
+### 2019. 11. 8 (금)
 
 * [셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)
 
