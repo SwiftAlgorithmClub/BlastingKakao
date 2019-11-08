@@ -120,3 +120,5 @@ func solution(_ s:String) -> Int {
     return min
 
 }
+
+print(solution("aabbaccc"))
