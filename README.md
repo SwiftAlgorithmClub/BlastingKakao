@@ -40,3 +40,8 @@
 
 * [좌물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
 
+### 2019. 11. 9 (토)
+
+* [가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
+
+다들 시험 잘 보시길 👍
