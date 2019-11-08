@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:girin.playground">
+   </FileRef>
+   <FileRef
       location = "group:Rhyno.playground">
    </FileRef>
    <FileRef
