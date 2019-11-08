@@ -2,15 +2,16 @@
 <playground version='6.0' target-platform='ios'>
     <pages>
         <page name='Kakao2018-1'/>
+        <page name='Kakao2018-2'/>
+        <page name='Kakao2018-3'/>
+        <page name='Kakao2018-4'/>
+        <page name='Kakao2019-1'/>
+        <page name='Kakao2019-2'/>
+        <page name='Kakao2019-3'/>
+        <page name='Kakao2019-4'/>
         <page name='Kakao2020-1'/>
         <page name='Kakao2020-2'/>
-        <page name='Kakao2020-4'/>
-        <page name='Kakao2019-1'/>
         <page name='Kakao2020-3'/>
-        <page name='Kakao2018-3'/>
-        <page name='Kakao2019-2'/>
-        <page name='Kakao2018-4'/>
-        <page name='Kakao2019-3'/>
-        <page name='Kakao2018-2'/>
+        <page name='Kakao2020-4'/>
     </pages>
 </playground>
