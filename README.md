@@ -7,7 +7,7 @@
 
 ### 2019. 11. 10 (일)
 
-[뉴스 클러스터링(난이도: 중)](https://programmers.co.kr/learn/courses/30/lessons/17678)
+[뉴스 클러스터링(난이도: 중)](https://programmers.co.kr/learn/courses/30/lessons/17677)
 
 ### 2019. 11. 9 (토)
 
