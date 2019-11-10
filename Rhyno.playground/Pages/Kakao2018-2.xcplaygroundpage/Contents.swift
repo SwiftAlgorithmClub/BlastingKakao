@@ -34,5 +34,3 @@ func solution(_ dartResult:String) -> Int {
 
     return points[0] + points[1] + points[2] // reduce 쓰면 시간초과
 }
-
-solution("1D2S0T")
