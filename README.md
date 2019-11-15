@@ -5,6 +5,12 @@
 
 [[2018] 카카오 신입 공채 1차](/2018/README.md)
 
+
+### 2019. 11. 11 (월)
+
+[다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682)
+
+
 ### 2019. 11. 10 (일)
 
 [뉴스 클러스터링(난이도: 중)](https://programmers.co.kr/learn/courses/30/lessons/17677)
