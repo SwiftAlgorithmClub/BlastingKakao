@@ -5,7 +5,7 @@ import Foundation
 
 func solution(_ record:[String]) -> [String] {
        
-    var nickNameDict = Dictionary<String, String>()
+    var nickNameDict:[String: String] = [:]
     
     var result:[String] = []
 
@@ -41,23 +41,13 @@ func solution(_ record:[String]) -> [String] {
     
     for i in 0..<result.count {
         
-        for key in nickNameDict.keys {
-            
-            let str = result[i]
-            
-            let splitStr = str.split(separator: " ")
-            
-            let id = splitStr.first
-            
-            if key == String(id!) {
-                
-                result[i] = nickNameDict[key]! + splitStr[1] + " " + splitStr[2]
-                
-                break
-                
-            }
-            
-        }
+        let str = result[i]
+        
+        let splitStr = str.split(separator: " ")
+        
+        let id = splitStr[0]
+        
+        result[i] = nickNameDict[String(id)]! + splitStr[1] + " " + splitStr[2]
         
     }
     
