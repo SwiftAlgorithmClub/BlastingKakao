@@ -14,17 +14,25 @@ func solution(_ cacheSize:Int, _ cities:[String]) -> Int {
     for city in cities {
     
         if cache.contains(city.lowercased()) {
-        
+            
+            if let index =  cache.index(of: city.lowercased()) {
+                
+                cache.remove(at: index)
+                
+                cache.append(city.lowercased())
+                
+            }
+            
             time = time + 1
                         
         }
         else {
         
+            cache.append(city.lowercased())
+            
             time = time + 5
             
         }
-        
-        cache.append(city.lowercased())
         
         if cache.count > cacheSize || cache.count > 30 {
             
