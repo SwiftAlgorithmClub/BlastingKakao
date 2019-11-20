@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios'>
     <pages>
-        <page name='[2020][01]문자열 압축'/>
-        <page name='[2018][01]비밀지도'/>
+        <page name='[2020][kakao]문자열 압축'/>
+        <page name='[2019][kakao]오픈채팅방'/>
+        <page name='[2018][kakao]비밀지도'/>
+        <page name='[2018][kakao]캐시'/>
     </pages>
 </playground>

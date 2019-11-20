@@ -1,6 +1,4 @@
-//
-// 안녕하세요 기린입니다.
-//
+
 import Foundation
 
 func solution(_ n:Int, _ arr1:[Int], _ arr2:[Int]) -> [String] {
