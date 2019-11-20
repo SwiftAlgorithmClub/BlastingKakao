@@ -26,7 +26,7 @@ func solution(_ cacheSize:Int, _ cities:[String]) -> Int {
         
         cache.append(city.lowercased())
         
-        if cache.count > cacheSize {
+        if cache.count > cacheSize || cache.count > 30 {
             
             cache.remove(at: 0)
             
