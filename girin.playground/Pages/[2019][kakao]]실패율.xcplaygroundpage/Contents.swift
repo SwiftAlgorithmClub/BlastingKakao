@@ -89,7 +89,7 @@ func solution(_ N:Int, _ stages:[Int]) -> [Int] {
         
     }
     
-//    print(번호배열)
+    print(번호배열)
     
 //    print(실패율배열)
 
