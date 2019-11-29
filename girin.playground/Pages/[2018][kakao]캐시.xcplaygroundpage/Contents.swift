@@ -20,7 +20,7 @@ func solution(_ cacheSize:Int, _ cities:[String]) -> Int {
                 cache.remove(at: index)
                 
                 cache.append(city.lowercased())
-                
+                                
             }
             
             time = time + 1
